@@ -1,6 +1,6 @@
-import shelve
+"""import shelve
 
-word_file = open('/Users/ericschlosser/Desktop/TheHardWay/MIT6.0001/words.txt', 'r')
+word_file = open('words.txt', 'r')
 word_file = word_file.read()
 
 shelfFile = shelve.open('five_words')
@@ -19,3 +19,7 @@ print(len(five_words))
 
 shelfFile['five_words'] = five_words
 shelfFile.close()
+"""
+
+import shelve
+shelfFile = shelve.open('five_words')
